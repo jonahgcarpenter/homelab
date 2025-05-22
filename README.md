@@ -17,6 +17,7 @@ My lab currently consists of **three physical host machines running Proxmox VE**
 - [**Proxmox VE**](./proxmox/)
   - [Applications](./proxmox/applications.md)
 - [**K3s Kubernetes Cluster**](./k3s-cluster/)
+  - [Config](./k3s-cluster/config.md)
   - [Applications](./k3s-cluster/applications.md)
 - [**HomeAssistant**](./homeassistant/smarthome.md)
 
