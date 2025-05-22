@@ -1,6 +1,6 @@
 # Homelab
 
-Welcome to the official documentation for my personal homelab! This repository serves as a central knowledge base for the setup, configuration, and ongoing maintenance of my home server environment.
+Welcome to the official documentation for my personal homelab! This repository serves as a central knowledge base for the setup and what I do in my free time.
 
 My lab currently consists of **three physical host machines running Proxmox VE**, which in turn host a **K3s Kubernetes cluster**. This setup allows for experimentation with virtualization, containerization, networking, and various self-hosted applications.
 
@@ -28,8 +28,7 @@ This homelab serves several purposes:
 
 - **Learning & Experimentation:** A sandbox to explore new technologies, software, and configurations in a controlled environment. This includes virtualization (Proxmox), containerization (Docker, K3s), networking, and various server applications.
 - **Self-Hosting:** Running various services for personal use, such as media servers, home automation, development tools, and personal cloud storage.
-- **Skill Development:** Enhancing skills in system administration, network management, DevOps practices (like IaC with Ansible/Terraform), and cybersecurity.
-- **Reproducibility:** Documenting the setup allows for easy recreation or recovery in case of hardware failure or a desire to rebuild.
+- **Skill Development:** Enhancing skills in system administration, network management, DevOps practices, and cybersecurity.
 
 ---
 
@@ -38,18 +37,5 @@ This homelab serves several purposes:
 - **Virtualization:** Proxmox VE
 - **Container Orchestration:** K3s (Lightweight Kubernetes)
 - **Operating Systems:** (Docker, Debian, Ubuntu Server, Alpine Linux for VMs/Containers)
-- **Networking:** (e.g., OPNsense/pfSense if used, Unifi gear, specific VLAN configurations)
+- **Networking:** (Specific VLAN configurations)
 - **Version Control:** Dockerhub & GitHub
-
----
-
-## 📝 Documentation Philosophy
-
-This documentation aims to be:
-
-- **Accurate:** Reflecting the current state of the homelab.
-- **Clear & Concise:** Easy to understand, even for "future me."
-- **Practical:** Containing enough detail to reproduce setups and troubleshoot issues.
-- **Up-to-Date:** Regularly updated as changes are made to the lab.
-
-If you are me from the future, please keep this documentation current! Note down changes, big or small.
